@@ -1,2 +1,5 @@
 /activitySpecs
 /activitySpecs/**
+node_modules/
+coverage/
+.stryker-tmp/

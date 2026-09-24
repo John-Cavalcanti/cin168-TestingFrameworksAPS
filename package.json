@@ -1,0 +1,28 @@
+{
+  "name": "cin168-testingframeworksaps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ScholarshipEligibilityEvaluator.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "test:coverage": "jest --verbose --coverage",
+    "mutation": "npx stryker run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/John-Cavalcanti/cin168-TestingFrameworksAPS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/John-Cavalcanti/cin168-TestingFrameworksAPS/issues"
+  },
+  "homepage": "https://github.com/John-Cavalcanti/cin168-TestingFrameworksAPS#readme",
+  "devDependencies": {
+    "@stryker-mutator/core": "^9.6.1",
+    "@stryker-mutator/jest-runner": "^9.6.1",
+    "jest": "^30.5.2"
+  }
+}
